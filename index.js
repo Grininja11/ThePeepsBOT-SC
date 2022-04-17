@@ -107,69 +107,7 @@ client.on("messageCreate", (message) => {
 })
 
 //The Peeps related Commands.
-client.on("messageCreate", (message) => {
-    //++Members++
-    //Nikki Doodle.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}nikkidoodle`) {
-        message.channel.send("*Insert a Nikki Doodle Quote here*")
-    }
-    //Elijah Perry.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}elijahperry`) {
-        message.channel.send("*Insert a ElijahPerry Quote here*")
-    }
-    //Kami.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}kami`) {
-        message.channel.send("*Insert a Kami Quote here*")
-    }
-    //Greninja11.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}greninja11`) {
-        message.channel.send("(DEV) *Fucking kill me i hate this damn bot*")
-    }
-    //LoganSlinderman.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}loganslinderman`) {
-        message.channel.send("*Insert a Loganslinderman Quote here*")
-    }
-    //BeastlyBoy.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}beastlyboy`) {
-        message.channel.send("*Insert a BeastlyBoy Quote here*")
-    }
-    //BrandonB.B.B.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}bradonbbb`) {
-        message.channel.send("*Insert a Brandon B.B.B Quote here*")
-    }
-    //no
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}killer`) {
-        message.channel.send("**No, Why?**")
-    }
-})
 
-//++Help Commands++
-
-//Help Command.
-client.on("messageCreate", (message) => {
-    //Help Command.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}help`) {
-        message.channel.send("Hello! I've seen you just used the **/help** Command, this Command isn't fully finished at the moment but here are some Commands one can use!")
-        message.channel.send("**/bingbong** | **/speak** | **/bye** | **hello**")
-        message.channel.send("Bot related Commands: **/botinfo** | **/scode** | **/patchnotes**.")
-        message.channel.send("Moderation Commands: **/modhelp**")
-        message.channel.send("Dev Commands: **/devlist**.")
-    }
-    //ModHelp command.
-    if (!message.content.startsWith(prefix)) return;
-    if (message.content === `${prefix}modhelp`) {
-    message.channel.send("*Being worked on!*")
-    }
-})
 
 //++DevCommands++
 
@@ -232,7 +170,7 @@ client.on("messageCreate", (message) => {
 client.on("messageCreate", (message) => {
     if (!message.content.startsWith(prefix)) return;
     if (message.content === `${prefix}scode`) {
-        message.channel.send("*My Sorce Code isn't public yet because Im am not fully coded...*")
+        message.channel.send("*My Sorce Code isn't public yet because Im am not fully coded...*") //This will change if ya are reading this
     }
 })
 
